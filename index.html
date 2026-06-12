@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyward HR | Professional Manpower & Staffing Solutions</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="logo.png" class="logo" alt="Skyward HR Logo" onerror="this.src='https://placehold.co/200x80?text=Skyward+HR'">
+    </div>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#industries" class="nav-link">Industries</a></li>
+            <li><a href="#careers" class="nav-link">Careers</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-actions">
+        <button class="theme-toggle-header" id="themeToggle" aria-label="Dark/Light Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Connecting Workforce with Opportunity</h1>
+        <p>Professional Manpower Supply | Staffing Solutions | HR Support Services</p>
+        <a href="#contact" class="btn btn-primary">Request Manpower</a>
+    </div>
+</section>
+
+<!-- About + Testimonials Combined Section -->
+<section id="about" class="section about-testimonials">
+    <div class="about-content">
+        <h2>About Us</h2>
+        <p>Skyward HR Service Private Limited is a professional manpower and HR services company providing skilled, semi-skilled and unskilled workforce solutions across logistics, warehousing, e-commerce, retail, manufacturing, corporate offices and support services.</p>
+    </div>
+    
+    <div class="testimonials-wrapper">
+        <h3>What Our Clients Say</h3>
+        <div class="testimonial-container">
+            <div class="testimonial-track" id="testimonialTrack">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Skyward HR provided excellent manpower for our warehouse. Very professional and reliable!"</p>
+                    <h4>- Rajesh Sharma, Logistics Manager</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Quick deployment and quality staff. Highly recommended for staffing needs."</p>
+                    <h4>- Priya Mehta, E-commerce Director</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Their payroll support saved us countless hours. Great partner!"</p>
+                    <h4>- Ankit Verma, HR Manager</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Best manpower agency in Delhi. Very responsive and efficient team."</p>
+                    <h4>- Neha Gupta, Operations Head</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" id="prevTestimonial">❮</button>
+            <button class="carousel-btn next" id="nextTestimonial">❯</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="section services-section">
+    <div class="section-header">
+        <h2>Our Services</h2>
+        <p>Comprehensive workforce solutions tailored to your business needs</p>
+    </div>
+    <div class="services-grouped">
+        <div class="service-box">
+            <div class="service-icon">
+                <i class="fas fa-users"></i>
+            </div>
+            <h3>Staffing Solutions</h3>
+            <ul class="service-list">
+                <li>Manpower Supply</li>
+                <li>Contract Staffing</li>
+            </ul>
+            <div class="service-hover-desc">
+                <p>Reliable workforce deployment for business operations with flexible contract options.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Recruitment Services</h3>
+            <ul class="service-list">
+                <li>Temporary Staffing</li>
+                <li>Bulk Hiring</li>
+            </ul>
+            <div class="service-hover-desc">
+                <p>Quick deployment for seasonal needs and large-scale workforce requirements.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon">
+                <i class="fas fa-file-alt"></i>
+            </div>
+            <h3>HR Support Services</h3>
+            <ul class="service-list">
+                <li>Payroll Support</li>
+                <li>Permanent Placement</li>
+            </ul>
+            <div class="service-hover-desc">
+                <p>Complete payroll management and long-term candidate placement solutions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Industries Section - 2x3 Grid -->
+<section id="industries" class="section industries-section">
+    <div class="section-header">
+        <h2>Industries We Serve</h2>
+        <p>Partnering with businesses across diverse sectors</p>
+    </div>
+    <div class="industries-grid">
+        <div class="industry-card">Warehousing</div>
+        <div class="industry-card">Logistics</div>
+        <div class="industry-card">E-Commerce</div>
+        <div class="industry-card">Retail</div>
+        <div class="industry-card">Manufacturing</div>
+        <div class="industry-card">Corporate Offices</div>
+    </div>
+</section>
+
+<!-- Careers Section -->
+<section id="careers" class="section careers-section">
+    <div class="section-header">
+        <h2>Job Application Form</h2>
+        <p>Join our team of professionals</p>
+    </div>
+    <div class="careers-form-container">
+        <form id="jobForm" class="careers-form">
+            <div class="form-group">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="Mobile Number" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <select required>
+                    <option value="">Select Position</option>
+                    <option>Warehouse Staff</option>
+                    <option>Delivery Executive</option>
+                    <option>Office Assistant</option>
+                    <option>Data Entry Operator</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="file" accept=".pdf,.doc,.docx">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+        </form>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+    <div class="section-header">
+        <h2>Contact Us</h2>
+        <p>Get in touch with our team</p>
+    </div>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="info-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Visit Us</h4>
+                <p>Office No. 206, Amber Tower, Commercial Complex,<br>Naniwala Bagh, Azadpur, Delhi - 110033</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-phone-alt"></i>
+                <h4>Call Us</h4>
+                <p><a href="tel:+919818661853">+91 9818661853</a></p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-envelope"></i>
+                <h4>Email Us</h4>
+                <p><a href="mailto:infoskywardhr@gmail.com">infoskywardhr@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="contact-form-wrapper">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <h3>Skyward HR Service Private Limited</h3>
+        <p>Connecting Workforce with Opportunity</p>
+        <div class="footer-bottom">
+            <p>© 2026 All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a class="whatsapp-float" href="https://wa.me/919818661853" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span>Chat with us</span>
+</a>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
