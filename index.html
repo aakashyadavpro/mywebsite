@@ -3,250 +3,763 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skyward HR | Professional Manpower & Staffing Solutions</title>
+    <title>Skyward HR | Leading Manpower & Staffing Solutions</title>
+    <meta name="description" content="Skyward HR Service Private Limited delivers premium manpower supply, rapid bulk hiring, contract staffing, and executive recruitment across India.">
     
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-<header>
-    <div class="logo-container">
-        <img src="logo.png" class="logo" alt="Skyward HR Logo" onerror="this.src='https://placehold.co/200x80?text=Skyward+HR'">
+<!-- Top Notification Bar -->
+<div class="top-bar">
+    <div class="container top-bar-content">
+        <div class="top-bar-contact">
+            <a href="tel:+919818661853"><i class="fas fa-phone-alt"></i> +91 9818661853</a>
+            <span class="divider">|</span>
+            <a href="mailto:infoskywardhr@gmail.com"><i class="fas fa-envelope"></i> infoskywardhr@gmail.com</a>
+            <span class="divider">|</span>
+            <span><i class="fas fa-map-marker-alt"></i> Azadpur, Delhi - 110033</span>
+        </div>
+        <div class="top-bar-badge">
+            <span class="pulse-dot"></span> ISO 9001:2015 Compliant Staffing Partner
+        </div>
     </div>
-    <nav>
-        <ul class="nav-menu">
-            <li><a href="#home" class="nav-link">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#services" class="nav-link">Services</a></li>
-            <li><a href="#industries" class="nav-link">Industries</a></li>
-            <li><a href="#careers" class="nav-link">Careers</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="header-actions">
-        <button class="theme-toggle-header" id="themeToggle" aria-label="Dark/Light Mode">
-            <i class="fas fa-moon"></i>
+</div>
+
+<!-- Header / Navigation -->
+<header id="mainHeader">
+    <div class="header-container">
+        <a href="#home" class="brand-logo">
+            <div class="logo-symbol">
+                <i class="fas fa-feather-alt"></i>
+            </div>
+            <div class="logo-text">
+                <span class="logo-title">SKYWARD<span class="accent">HR</span></span>
+                <span class="logo-subtitle">Service Private Limited</span>
+            </div>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
+
+        <nav id="navMenu">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#industries" class="nav-link">Industries</a></li>
+                <li><a href="#careers" class="nav-link">Careers</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <button class="theme-toggle-header" id="themeToggle" aria-label="Toggle Theme" title="Toggle dark/light mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <a href="#contact" class="btn btn-header">Hire Talent <i class="fas fa-arrow-right"></i></a>
+        </div>
     </div>
 </header>
 
 <!-- Hero Section -->
 <section id="home" class="hero">
-    <div class="hero-content">
-        <h1>Connecting Workforce with Opportunity</h1>
-        <p>Professional Manpower Supply | Staffing Solutions | HR Support Services</p>
-        <a href="#contact" class="btn btn-primary">Request Manpower</a>
+    <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+    <div class="container hero-container">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-shield-alt"></i> Verified & Background-Checked Workforce
+            </div>
+            <h1>Powering Businesses With <span class="gradient-text">Reliable Human Capital</span></h1>
+            <p>We bridge the critical gap between high-growth enterprises and skilled, compliant, dependable workforce talent. Specializing in rapid bulk hiring, technical manpower, logistics, and end-to-end HR payroll services.</p>
+            
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Request Manpower</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#careers" class="btn btn-secondary">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Apply for Jobs</span>
+                </a>
+            </div>
+
+            <div class="hero-highlights">
+                <div class="highlight-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>24-48h Deployment</span>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>100% Statutory Compliance</span>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Zero Placement Risk</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="stat-card stat-top">
+                <div class="stat-icon"><i class="fas fa-users-cog"></i></div>
+                <div>
+                    <h4>15,000+</h4>
+                    <p>Personnel Placed</p>
+                </div>
+            </div>
+            <div class="hero-image-card">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Skyward HR Professional Team" class="main-hero-img">
+                <div class="floating-rate-tag">
+                    <div class="rate-stars"><i class="fas fa-star"></i> 4.9/5 Rating</div>
+                    <small>Client Trust Index</small>
+                </div>
+            </div>
+            <div class="stat-card stat-bottom">
+                <div class="stat-icon stat-icon-green"><i class="fas fa-building"></i></div>
+                <div>
+                    <h4>180+</h4>
+                    <p>Corporate Clients</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- About + Testimonials Combined Section -->
-<section id="about" class="section about-testimonials">
-    <div class="about-content">
-        <h2>About Us</h2>
-        <p>Skyward HR Service Private Limited is a professional manpower and HR services company providing skilled, semi-skilled and unskilled workforce solutions across logistics, warehousing, e-commerce, retail, manufacturing, corporate offices and support services.</p>
+<!-- Stats / Trust Counters Bar -->
+<section class="metrics-bar">
+    <div class="container metrics-grid">
+        <div class="metric-item">
+            <h3 class="counter" data-target="15000">15,000+</h3>
+            <p>Trained Candidates Placed</p>
+        </div>
+        <div class="metric-item">
+            <h3 class="counter" data-target="180">180+</h3>
+            <p>Active Corporate Partners</p>
+        </div>
+        <div class="metric-item">
+            <h3 class="counter" data-target="98">98%</h3>
+            <p>Client Retention Ratio</p>
+        </div>
+        <div class="metric-item">
+            <h3 class="counter" data-target="24">24-48h</h3>
+            <p>Fast Turnaround Delivery</p>
+        </div>
     </div>
-    
-    <div class="testimonials-wrapper">
-        <h3>What Our Clients Say</h3>
-        <div class="testimonial-container">
-            <div class="testimonial-track" id="testimonialTrack">
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-left"></i>
-                    <p>"Skyward HR provided excellent manpower for our warehouse. Very professional and reliable!"</p>
-                    <h4>- Rajesh Sharma, Logistics Manager</h4>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-left"></i>
-                    <p>"Quick deployment and quality staff. Highly recommended for staffing needs."</p>
-                    <h4>- Priya Mehta, E-commerce Director</h4>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-left"></i>
-                    <p>"Their payroll support saved us countless hours. Great partner!"</p>
-                    <h4>- Ankit Verma, HR Manager</h4>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-left"></i>
-                    <p>"Best manpower agency in Delhi. Very responsive and efficient team."</p>
-                    <h4>- Neha Gupta, Operations Head</h4>
-                    <div class="stars">★★★★★</div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="section about-section">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-visual">
+                <div class="about-img-box">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" alt="Executive Leadership Skyward HR" class="about-img">
+                    <div class="experience-badge">
+                        <span class="exp-num">10+</span>
+                        <span class="exp-text">Years of HR Excellence</span>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-btn prev" id="prevTestimonial">❮</button>
-            <button class="carousel-btn next" id="nextTestimonial">❯</button>
+
+            <div class="about-content">
+                <span class="section-tag">WHO WE ARE</span>
+                <h2>Architects of Agile Workforce Solutions</h2>
+                <p class="about-lead">Skyward HR Service Private Limited is a premier manpower consultancy dedicated to fueling industry growth through top-tier human capital.</p>
+                <p class="about-body">We provide customized staffing pipelines across warehousing, logistics, e-commerce, automated manufacturing, retail, and corporate facilities. From short-notice peak season spikes to executive placements and statutory payroll governance, we manage the entire talent lifecycle with surgical precision.</p>
+
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-id-card-alt"></i></div>
+                        <div>
+                            <h4>Stringent Vetting</h4>
+                            <p>KYC, background checks, and skill benchmark assessments on every profile.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-file-contract"></i></div>
+                        <div>
+                            <h4>Statutory Governance</h4>
+                            <p>Full adherence to PF, ESIC, minimum wages, and labour compliance codes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-action">
+                    <a href="#services" class="btn btn-primary">Explore Our Services <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="carousel-dots" id="carouselDots"></div>
     </div>
 </section>
 
 <!-- Services Section -->
 <section id="services" class="section services-section">
-    <div class="section-header">
-        <h2>Our Services</h2>
-        <p>Comprehensive workforce solutions tailored to your business needs</p>
-    </div>
-    <div class="services-grouped">
-        <div class="service-box">
-            <div class="service-icon">
-                <i class="fas fa-users"></i>
-            </div>
-            <h3>Staffing Solutions</h3>
-            <ul class="service-list">
-                <li>Manpower Supply</li>
-                <li>Contract Staffing</li>
-            </ul>
-            <div class="service-hover-desc">
-                <p>Reliable workforce deployment for business operations with flexible contract options.</p>
-            </div>
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">WHAT WE OFFER</span>
+            <h2>Comprehensive Workforce Services</h2>
+            <p>From flexible short-term labor to permanent corporate hiring and back-office management, we empower your operational success.</p>
         </div>
 
-        <div class="service-box">
-            <div class="service-icon">
-                <i class="fas fa-chart-line"></i>
+        <div class="services-grid">
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <h3>Contract Staffing</h3>
+                <p class="service-summary">Scale your team with flexible contract staff for seasonal loads, projects, and rapid rollouts without headcount liabilities.</p>
+                <ul class="service-checklist">
+                    <li><i class="fas fa-check"></i> On-demand short & long term staff</li>
+                    <li><i class="fas fa-check"></i> Managed shift attendance tracking</li>
+                    <li><i class="fas fa-check"></i> Immediate replacement guarantee</li>
+                </ul>
+                <div class="service-footer">
+                    <a href="#contact" class="service-link">Inquire Now <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
-            <h3>Recruitment Services</h3>
-            <ul class="service-list">
-                <li>Temporary Staffing</li>
-                <li>Bulk Hiring</li>
-            </ul>
-            <div class="service-hover-desc">
-                <p>Quick deployment for seasonal needs and large-scale workforce requirements.</p>
-            </div>
-        </div>
 
-        <div class="service-box">
-            <div class="service-icon">
-                <i class="fas fa-file-alt"></i>
+            <div class="service-box featured">
+                <div class="featured-ribbon">Most Popular</div>
+                <div class="service-icon">
+                    <i class="fas fa-dolly-flatbed"></i>
+                </div>
+                <h3>Industrial & Warehouse Staffing</h3>
+                <p class="service-summary">Dedicated supply of vetted warehouse pickers, packers, forklift operators, supervisors, and inventory associates.</p>
+                <ul class="service-checklist">
+                    <li><i class="fas fa-check"></i> 3PL & Fulfillment specialists</li>
+                    <li><i class="fas fa-check"></i> 24/7 round-the-clock shift staffing</li>
+                    <li><i class="fas fa-check"></i> Safety trained & verified personnel</li>
+                </ul>
+                <div class="service-footer">
+                    <a href="#contact" class="service-link">Inquire Now <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
-            <h3>HR Support Services</h3>
-            <ul class="service-list">
-                <li>Payroll Support</li>
-                <li>Permanent Placement</li>
-            </ul>
-            <div class="service-hover-desc">
-                <p>Complete payroll management and long-term candidate placement solutions.</p>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3>Payroll & Statutory Compliance</h3>
+                <p class="service-summary">End-to-end payroll outsourcing, PF/ESIC deductions, tax filings, and legal compliance safeguards for complete peace of mind.</p>
+                <ul class="service-checklist">
+                    <li><i class="fas fa-check"></i> 100% Labour Law & GST compliance</li>
+                    <li><i class="fas fa-check"></i> Timely automated monthly disbursals</li>
+                    <li><i class="fas fa-check"></i> Monthly compliance audit reports</li>
+                </ul>
+                <div class="service-footer">
+                    <a href="#contact" class="service-link">Inquire Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class="fas fa-layer-group"></i>
+                </div>
+                <h3>Bulk Hiring & Deployment</h3>
+                <p class="service-summary">Fast-track recruitment drives to onboard 50 to 500+ candidates simultaneously for new facility launches and peak seasons.</p>
+                <ul class="service-checklist">
+                    <li><i class="fas fa-check"></i> Multi-city sourcing channels</li>
+                    <li><i class="fas fa-check"></i> Rigorous screening & onboarding</li>
+                    <li><i class="fas fa-check"></i> Dedicated onsite account managers</li>
+                </ul>
+                <div class="service-footer">
+                    <a href="#contact" class="service-link">Inquire Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h3>Permanent Executive Placement</h3>
+                <p class="service-summary">Strategic executive search and lateral hiring for team leads, plant managers, operations heads, and corporate staff.</p>
+                <ul class="service-checklist">
+                    <li><i class="fas fa-check"></i> Domain-focused headhunting</li>
+                    <li><i class="fas fa-check"></i> Cultural fitment evaluation</li>
+                    <li><i class="fas fa-check"></i> 90-day retention warranty</li>
+                </ul>
+                <div class="service-footer">
+                    <a href="#contact" class="service-link">Inquire Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>Facility & Support Services</h3>
+                <p class="service-summary">Trained office assistants, front desk receptionists, computer operators, and pantry/housekeeping personnel.</p>
+                <ul class="service-checklist">
+                    <li><i class="fas fa-check"></i> Groomed, courteous workforce</li>
+                    <li><i class="fas fa-check"></i> Data entry & admin support</li>
+                    <li><i class="fas fa-check"></i> Flexible duty rosters</li>
+                </ul>
+                <div class="service-footer">
+                    <a href="#contact" class="service-link">Inquire Now <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Industries Section - 2x3 Grid -->
+<!-- Industries Section -->
 <section id="industries" class="section industries-section">
-    <div class="section-header">
-        <h2>Industries We Serve</h2>
-        <p>Partnering with businesses across diverse sectors</p>
-    </div>
-    <div class="industries-grid">
-        <div class="industry-card">Warehousing</div>
-        <div class="industry-card">Logistics</div>
-        <div class="industry-card">E-Commerce</div>
-        <div class="industry-card">Retail</div>
-        <div class="industry-card">Manufacturing</div>
-        <div class="industry-card">Corporate Offices</div>
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">SECTORS WE EMPOWER</span>
+            <h2>Industries We Serve</h2>
+            <p>Custom workforce frameworks built specifically for the operational demands of each industry.</p>
+        </div>
+
+        <div class="industries-grid">
+            <div class="industry-card">
+                <div class="industry-icon-wrapper">
+                    <i class="fas fa-warehouse"></i>
+                </div>
+                <h4>Warehousing & 3PL</h4>
+                <p>Material handlers, stock auditors, dispatch crews, and inventory managers.</p>
+            </div>
+
+            <div class="industry-card">
+                <div class="industry-icon-wrapper">
+                    <i class="fas fa-truck-moving"></i>
+                </div>
+                <h4>Logistics & Supply Chain</h4>
+                <p>Fleet dispatchers, hub operators, sorting staff, and route planners.</p>
+            </div>
+
+            <div class="industry-card">
+                <div class="industry-icon-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h4>E-Commerce & Quick Commerce</h4>
+                <p>Dark store pickers, last-mile couriers, return processors, and sorters.</p>
+            </div>
+
+            <div class="industry-card">
+                <div class="industry-icon-wrapper">
+                    <i class="fas fa-store"></i>
+                </div>
+                <h4>Retail & Supermarkets</h4>
+                <p>Store associates, cashiers, stock replenishers, and customer service staff.</p>
+            </div>
+
+            <div class="industry-card">
+                <div class="industry-icon-wrapper">
+                    <i class="fas fa-industry"></i>
+                </div>
+                <h4>Manufacturing & Production</h4>
+                <p>Assembly line workers, machine operators, QA inspectors, and technicians.</p>
+            </div>
+
+            <div class="industry-card">
+                <div class="industry-icon-wrapper">
+                    <i class="fas fa-city"></i>
+                </div>
+                <h4>Corporate & BFSI</h4>
+                <p>Office executives, data entry specialists, receptionists, and HR support staff.</p>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- Careers Section -->
-<section id="careers" class="section careers-section">
-    <div class="section-header">
-        <h2>Job Application Form</h2>
-        <p>Join our team of professionals</p>
+<!-- Testimonials Section -->
+<section class="section testimonials-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">CLIENT FEEDBACK</span>
+            <h2>Trusted by Industry Leaders</h2>
+            <p>Here is what our corporate partners share about our workforce delivery and support.</p>
+        </div>
+
+        <div class="testimonials-wrapper">
+            <div class="testimonial-container">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">"Skyward HR has been instrumental in scaling our warehouse operations during festive sales. They deployed 120 verified workers within 48 hours without compromising quality or compliance."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-check"></i></div>
+                            <div>
+                                <h4>Rajesh Sharma</h4>
+                                <span>Logistics Operations Manager, Delhi NCR</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">"Outstanding staffing partner. Their background checks and payroll transparency have saved our internal HR countless hours. Very reliable and always responsive to our needs."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-check"></i></div>
+                            <div>
+                                <h4>Priya Mehta</h4>
+                                <span>Director of Operations, Quick Commerce Brand</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">"Their compliance management is top-notch. ESIC, PF, and contractual obligations are handled seamlessly with audit-ready documentation every month."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-check"></i></div>
+                            <div>
+                                <h4>Ankit Verma</h4>
+                                <span>Head of Human Resources, Manufacturing Unit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">"Easily the most dedicated manpower agency in North India. If you need disciplined and verified staff with prompt account management, Skyward HR is the team to hire."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-check"></i></div>
+                            <div>
+                                <h4>Neha Gupta</h4>
+                                <span>Facility Operations Head, E-Retail Hub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn prev" id="prevTestimonial" aria-label="Previous Testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" id="nextTestimonial" aria-label="Next Testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
     </div>
-    <div class="careers-form-container">
-        <form id="jobForm" class="careers-form">
-            <div class="form-group">
-                <input type="text" placeholder="Full Name" required>
+</section>
+
+<!-- Careers / Job Application Section -->
+<section id="careers" class="section careers-section">
+    <div class="container">
+        <div class="careers-layout">
+            <div class="careers-info">
+                <span class="section-tag">JOIN OUR TALENT POOL</span>
+                <h2>Start Your Next Career Move Today</h2>
+                <p>We work directly with India's fastest-growing logistics, e-commerce, warehousing, and corporate brands. Submit your application to get matched with rewarding job opportunities.</p>
+                
+                <div class="career-perks">
+                    <div class="perk-item">
+                        <div class="perk-icon"><i class="fas fa-money-bill-wave"></i></div>
+                        <div>
+                            <h5>Timely & Fair Wages</h5>
+                            <p>Direct bank salary transfers with transparent slips every month.</p>
+                        </div>
+                    </div>
+                    <div class="perk-item">
+                        <div class="perk-icon"><i class="fas fa-heartbeat"></i></div>
+                        <div>
+                            <h5>PF & ESIC Benefits</h5>
+                            <p>Complete medical insurance and social security coverage for all candidates.</p>
+                        </div>
+                    </div>
+                    <div class="perk-item">
+                        <div class="perk-icon"><i class="fas fa-chart-line"></i></div>
+                        <div>
+                            <h5>Career Advancement</h5>
+                            <p>Promotion paths from entry workforce to supervisors and team managers.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <input type="tel" placeholder="Mobile Number" required>
+
+            <div class="careers-form-container">
+                <div class="careers-card">
+                    <div class="card-header">
+                        <h3>Submit Your Application</h3>
+                        <p>Fill out the form below. Our recruitment coordinators will call you.</p>
+                    </div>
+
+                    <form id="jobForm" class="styled-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="candidateName">Full Name *</label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" id="candidateName" placeholder="e.g. Rahul Sharma" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="candidatePhone">Phone Number *</label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-phone"></i>
+                                    <input type="tel" id="candidatePhone" placeholder="10-digit mobile number" required pattern="[0-9]{10}">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="candidateEmail">Email Address</label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" id="candidateEmail" placeholder="yourname@gmail.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="candidateRole">Position Desired *</label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                    <select id="candidateRole" required>
+                                        <option value="">Select Target Position</option>
+                                        <option value="warehouse">Warehouse Associate / Picker / Packer</option>
+                                        <option value="delivery">Delivery / Field Executive</option>
+                                        <option value="forklift">Forklift / Machine Operator</option>
+                                        <option value="data-entry">Data Entry & Office Assistant</option>
+                                        <option value="supervisor">Warehouse Supervisor / Lead</option>
+                                        <option value="manufacturing">Manufacturing Line Operator</option>
+                                        <option value="other">Other Positions</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="resumeFile">Upload Resume (PDF / Word, Max 5MB)</label>
+                            <div class="file-upload-box" id="dropArea">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span class="upload-title">Click to browse or drag & drop resume</span>
+                                <span class="upload-hint" id="fileInfo">Supported formats: PDF, DOC, DOCX</span>
+                                <input type="file" id="resumeFile" accept=".pdf,.doc,.docx" class="hidden-file-input">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Submit Application</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <input type="email" placeholder="Email Address" required>
-            </div>
-            <div class="form-group">
-                <select required>
-                    <option value="">Select Position</option>
-                    <option>Warehouse Staff</option>
-                    <option>Delivery Executive</option>
-                    <option>Office Assistant</option>
-                    <option>Data Entry Operator</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <input type="file" accept=".pdf,.doc,.docx">
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
-        </form>
+        </div>
     </div>
 </section>
 
 <!-- Contact Section -->
 <section id="contact" class="section contact-section">
-    <div class="section-header">
-        <h2>Contact Us</h2>
-        <p>Get in touch with our team</p>
-    </div>
-    <div class="contact-container">
-        <div class="contact-info">
-            <div class="info-card">
-                <i class="fas fa-map-marker-alt"></i>
-                <h4>Visit Us</h4>
-                <p>Office No. 206, Amber Tower, Commercial Complex,<br>Naniwala Bagh, Azadpur, Delhi - 110033</p>
-            </div>
-            <div class="info-card">
-                <i class="fas fa-phone-alt"></i>
-                <h4>Call Us</h4>
-                <p><a href="tel:+919818661853">+91 9818661853</a></p>
-            </div>
-            <div class="info-card">
-                <i class="fas fa-envelope"></i>
-                <h4>Email Us</h4>
-                <p><a href="mailto:infoskywardhr@gmail.com">infoskywardhr@gmail.com</a></p>
-            </div>
+    <div class="container">
+        <div class="section-header contact-header">
+            <span class="section-tag section-tag-light">GET IN TOUCH</span>
+            <h2>Let's Build Your Ideal Workforce</h2>
+            <p>Tell us your staffing requirements or ask any questions. Our team will prepare a tailored proposal within 24 hours.</p>
         </div>
-        <div class="contact-form-wrapper">
-            <form id="contactForm" class="contact-form">
-                <div class="form-group">
-                    <input type="text" placeholder="Your Name" required>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p class="contact-desc">Reach out directly via phone or email, or drop by our corporate office in Delhi.</p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-details">
+                            <h5>Head Office Address</h5>
+                            <p>Office No. 206, Amber Tower, Commercial Complex, Naniwala Bagh, Azadpur, Delhi - 110033</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-details">
+                            <h5>Direct Call / WhatsApp</h5>
+                            <p><a href="tel:+919818661853">+91 9818661853</a></p>
+                            <small>Mon - Sat (9:00 AM - 7:00 PM)</small>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="info-details">
+                            <h5>Official Email</h5>
+                            <p><a href="mailto:infoskywardhr@gmail.com">infoskywardhr@gmail.com</a></p>
+                            <small>Fast response guaranteed</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Your Email" required>
+
+                <div class="corporate-badge">
+                    <i class="fas fa-building"></i>
+                    <div>
+                        <strong>Skyward HR Service Private Limited</strong>
+                        <p>CIN / Govt. Registered Private Limited Entity</p>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <textarea rows="5" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
-            </form>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h3>Send Us an Inquiry</h3>
+                <p class="form-subtext">Looking for staff or need a staffing quotation? Send us your requirement.</p>
+
+                <form id="contactForm" class="styled-form">
+                    <div class="form-group">
+                        <label for="contactName">Your Name / Company Rep *</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="contactName" placeholder="e.g. Vikram Mehta" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactEmail">Business Email *</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="contactEmail" placeholder="vikram@company.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactPhone">Phone Number *</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-phone"></i>
+                                <input type="tel" id="contactPhone" placeholder="Mobile / Landline" required pattern="[0-9]{10}">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactService">Requirement Type</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-briefcase"></i>
+                            <select id="contactService">
+                                <option value="general">Manpower Supply / Bulk Staffing</option>
+                                <option value="warehouse">Warehouse / Logistics Staffing</option>
+                                <option value="payroll">Payroll Management Support</option>
+                                <option value="permanent">Permanent / Executive Hiring</option>
+                                <option value="other">General Business Inquiry</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage">Describe Your Requirements *</label>
+                        <div class="input-with-icon text-area-icon">
+                            <i class="fas fa-comment-dots"></i>
+                            <textarea id="contactMessage" rows="4" placeholder="Tell us about the roles, number of candidates required, location, or start dates..." required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- Footer -->
 <footer>
-    <div class="footer-content">
-        <h3>Skyward HR Service Private Limited</h3>
-        <p>Connecting Workforce with Opportunity</p>
+    <div class="container footer-content">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="brand-logo footer-logo">
+                    <div class="logo-symbol">
+                        <i class="fas fa-feather-alt"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title text-white">SKYWARD<span class="accent">HR</span></span>
+                        <span class="logo-subtitle text-gray">Service Private Limited</span>
+                    </div>
+                </a>
+                <p class="footer-desc">Skyward HR Service Private Limited is a trusted human resources partner providing workforce solutions across India with complete statutory compliance and rapid deployment.</p>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/919818661853" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:infoskywardhr@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                    <li><a href="#industries"><i class="fas fa-chevron-right"></i> Industries</a></li>
+                    <li><a href="#careers"><i class="fas fa-chevron-right"></i> Careers & Jobs</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Contract Staffing</a></li>
+                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Warehouse Manpower</a></li>
+                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Payroll & Compliance</a></li>
+                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Bulk Hiring</a></li>
+                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Facility Support Staff</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Head Office</h4>
+                <p class="footer-contact-item"><i class="fas fa-map-marker-alt"></i> Office No. 206, Amber Tower, Commercial Complex, Naniwala Bagh, Azadpur, Delhi - 110033</p>
+                <p class="footer-contact-item"><i class="fas fa-phone-alt"></i> +91 9818661853</p>
+                <p class="footer-contact-item"><i class="fas fa-envelope"></i> infoskywardhr@gmail.com</p>
+                <p class="footer-contact-item"><i class="fas fa-clock"></i> Mon - Sat: 9:00 AM - 7:00 PM</p>
+            </div>
+        </div>
+
         <div class="footer-bottom">
-            <p>© 2026 All Rights Reserved.</p>
+            <p>© 2026 Skyward HR Service Private Limited. All Rights Reserved.</p>
+            <div class="footer-legal">
+                <span>Statutory Compliant</span>
+                <span>•</span>
+                <span>Privacy Policy</span>
+                <span>•</span>
+                <span>Terms of Service</span>
+            </div>
         </div>
     </div>
 </footer>
 
 <!-- WhatsApp Floating Button -->
-<a class="whatsapp-float" href="https://wa.me/919818661853" target="_blank" aria-label="WhatsApp">
+<a class="whatsapp-float" href="https://wa.me/919818661853?text=Hi%20Skyward%20HR%20team,%20I%20would%20like%20to%20inquire%20about%20your%20manpower%20services." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
     <i class="fab fa-whatsapp"></i>
     <span>Chat with us</span>
 </a>
 
 <!-- Back to Top Button -->
-<button id="backToTop" class="back-to-top">
+<button id="backToTop" class="back-to-top" aria-label="Back to Top">
     <i class="fas fa-arrow-up"></i>
 </button>
+
+<!-- Toast Notification Container -->
+<div id="toastNotification" class="toast-notification"></div>
 
 <script src="script.js"></script>
 </body>
